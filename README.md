@@ -104,13 +104,13 @@ For available CRT numbers see lst of files in:
 
 ### Other Resources
 
-**C**
+**C Programming**
 
 - [ZX Spectrum Development with Z88DK](https://github.com/z88dk/z88dk/blob/master/doc/ZXSpectrumZSDCCnewlib_01_GettingStarted.md) 
 
-**Assembler**
+**Assemble Programming**
 
 - [Good summary for Assembler programming for the the ZX](https://github.com/varmfskii/zxnext_code/blob/master/zx_next_notes/zxnext_notes.pdf)
 - [Assembler programming for the the ZX](http://chuntey.arjunnair.in/)
-- [Assembler programming for the the ZX](and ZX Next: https://www.chibiakumas.com/z80/ZXSpectrum.php)
+- [Assembler programming for the the ZX and ZX Next](https://www.chibiakumas.com/z80/ZXSpectrum.php)
 - [Game programming for the ZX Spectrum](https://spectrumcomputing.co.uk/index.php?cat=96&id=2001501)
