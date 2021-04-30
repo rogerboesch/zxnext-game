@@ -67,7 +67,7 @@ The classic graphics operations are supported in all available screen modes. In 
 
 **Pragmas to control classic library**
 
-- https://github.com/z88dk/z88dk/wiki/Classic--Pragmas
+https://github.com/z88dk/z88dk/wiki/Classic--Pragmas
 
 
 **Math library**
@@ -79,7 +79,7 @@ https://github.com/z88dk/z88dk/wiki/Classic--Maths-Libraries
 
 **CRT**
 
-- https://github.com/z88dk/z88dk/wiki/CRT
+https://github.com/z88dk/z88dk/wiki/CRT
 The crt is the startup code that runs before calling main(). It is responsible for setting the memory map, instantiating device drivers on stdin/stdout/stderr, initializing the bss and data sections and calling any initialization code prior to calling main(). On return from main() it is responsible for closing open files, resetting the stack and preparing to return to the host.
 
 **Pragma overrides**
@@ -98,7 +98,8 @@ Pragmas embedded in the C source can override the crt configuration. Pragmas can
 - **CLIB** lists options that are added to the compile when "-clib=???" appears on the compile line. For compiles using the new C library, **"-clib=new"**, "-clib=sdcc_ix" or "-clib=sdcc_iy" are used. The first one sets up a compile using sccz80 while the latter two set up compiles using sdcc with the distinction being which index register the C library uses.
 
 For available CRT numbers see lst of files in:
-$PATH/z88dk/libsrc/_DEVELOPMENT/target/zxn/startup/zxn_crt_xxx.asm.m4
+
+**$PATH/z88dk/libsrc/_DEVELOPMENT/target/zxn/startup/zxn_crt_xxx.asm.m4**
 
 
 ### Other Resources
@@ -109,7 +110,7 @@ $PATH/z88dk/libsrc/_DEVELOPMENT/target/zxn/startup/zxn_crt_xxx.asm.m4
 
 **Assembler**
 
-- https://github.com/varmfskii/zxnext_code/blob/master/zx_next_notes/zxnext_notes.pdf - Good summary around Assembler programming for the the ZX
-- http://chuntey.arjunnair.in/ - Good info around Assembler programming for the the ZX
-- https://www.chibiakumas.com/z80/ZXSpectrum.php - Good tutorial around Assembler programming for the the ZX and ZX Next
-- https://spectrumcomputing.co.uk/index.php?cat=96&id=2001501 - Game programming for the zx spectrum
+- Good summary for Assembler programming for the the ZX: https://github.com/varmfskii/zxnext_code/blob/master/zx_next_notes/zxnext_notes.pdf
+- Assembler programming for the the ZX: http://chuntey.arjunnair.in/
+- Assembler programming for the the ZX and ZX Next: https://www.chibiakumas.com/z80/ZXSpectrum.php 
+- Game programming for the ZX Spectrum: https://spectrumcomputing.co.uk/index.php?cat=96&id=2001501
