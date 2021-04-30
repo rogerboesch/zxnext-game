@@ -14,7 +14,11 @@ Maybe some parts have to be implemented in Z80 Assembler, but I will decide that
 
 ## Build the source
 
-Building the source is as easy as type-in ```make```
+Building the source is as easy as type-in
+
+```bash
+make
+```
 
 
 Of course this is only true if you have already installed the Z88DK crosscompiler toolchain.
