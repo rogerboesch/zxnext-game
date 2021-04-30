@@ -1,13 +1,13 @@
-# The ZXNext Game with no Name
+# The ZX Spectrum Next Game with no Name
 
-I work on a ZX Spectrum Next Game for the following reasons
+I work on a ZX Spectrum Next Game for the following reasons:
 
 - The ZX Spectrum was my first computer
 - I love retro (game) programming
-- I like to document the path to a finished comercial grade game and make it easier for others to start
+- I like to document the path to a finished game and make it easier for others to start
 
 Because C/C++ is my daily (main) programming language I have decided to go the C route.
-Maybe some parts have to be implemented in Z80 Assembler, but I will decide that on the way
+Maybe some parts have to be implemented in Z80 Assembler, but I will decide that on the way.
 
 *Note: The informations and script are related to macOS but will work probably also as is undre Linux.*
 
