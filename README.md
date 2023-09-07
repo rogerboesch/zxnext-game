@@ -25,9 +25,9 @@ Of course this is only true if you have already installed the Z88DK crosscompile
 If not, you have to do this before (for Windows):
 
 - Download Windows version of Z88DK
-- Install make
-- Install CSpect
-- Before start always execute batch file ```%USERPROFILE%\z88dk\z88dk_prompt.bat``` in Z88DK folder to set path and config files
+- Install make (Not necc. but highly recommended)S
+- Install CSpect *(and also set path environment variable to CSpect folder)*
+- Before start always execute batch file ```%USERPROFILE%\z88dk\z88dk_prompt.bat``` from the Z88DK folder to set path and config files
  
 I use for the game a modified version of Stefan Bylunds SpriteLib.
 You find the original README file in the spritelib folder and also on his Github repo at: https://github.com/stefanbylund/zxnext_sprite
