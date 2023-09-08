@@ -62,7 +62,15 @@ make run
 ### Toolchain
 
 On Windows, make is not available by default and you have to install it first.
-I use the *Chocolatey* package manager for this and I can just highly recommend it.
+I use the [Chocolatey](https://community.chocolatey.org/courses/installation/installing?method=install-from-powershell-v3) package manager for this and I can just highly recommend it.
+
+When installed, you can simply add new tools and software by type in:
+
+
+```bash
+choco install make
+```
+
 
 ### Sprite Library
 
