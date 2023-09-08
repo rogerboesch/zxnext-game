@@ -29,26 +29,33 @@ Building the source is as easy as type-in
 make
 ```
 
-If not, then follow this steps:
+If you have nogt already installed the toolchain, then follow this steps:
 
 1. Install the [Z88DK](https://github.com/z88dk/z88dk) crosscompiler toolchain
-2. Install CSpect (Sinclair ZX Spectrum Emulator)
+2. Install [CSpect](https://emutopia.com/index.php/emulators/item/364-sinclair-zx-spectrum/1895-cspect) (Sinclair ZX Spectrum Emulator)
 2. Set *%PATH%* environment variable to CSpect folder
 3. Download the *zxnext_game repository either* as a ZIP archive using the "Clone or download" button at the top of this page or with Git using the following command:
 
-```git clone https://github.com/rogerboesch/zxnext_game.git```
+```bash
+git clone https://github.com/rogerboesch/zxnext_game.git```
 
 Go to the zxnext_game directory and enter the following command:
 
-```make game```
+```bash
+make game
+```
 
 To build and start it directly after in the emulator type in:
 
-```make build```
+```bash
+make build
+```
 
 If you just want start the program without building at first type in:
 
-```make run```
+```bash
+make run
+```
 
 
 ### Toolchain
@@ -64,4 +71,4 @@ You find the original README file in the spritelib folder and also on his [Githu
 
 ## More informations
 
-Find here [Info](INFO.md) some more information about Z88DK and ZX Spectrum/Next programming in genefral
+Find here [Info](INFO.md) some more information about Z88DK and ZX Spectrum/Next programming in general
