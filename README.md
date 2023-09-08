@@ -74,8 +74,8 @@ choco install make
 
 ### Sprite Library
 
-I use for the game a modified version of Stefan Bylunds SpriteLib.
-You find the original README file in the spritelib folder and also on his [Github](https://github.com/stefanbylund/zxnext_sprite) repo.
+I use a modified version of Stefan Bylunds SpriteLib.
+You find the original on his [Github](https://github.com/stefanbylund/zxnext_sprite) repo.
 
 
 ## More informations
