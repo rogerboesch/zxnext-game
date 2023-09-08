@@ -1,4 +1,4 @@
-# The ZX Spectrum Next Game with no Name
+# A ZX Spectrum Next Game
 
 I work on a ZX Spectrum Next Game for the following reasons:
 
@@ -9,7 +9,16 @@ I work on a ZX Spectrum Next Game for the following reasons:
 Because C/C++ is my daily (main) programming language I have decided to go the C route.
 Maybe some parts have to be implemented in Z80 Assembler, but I will decide that on the way.
 
-*Note: The informations and script are related to macOS but will work probably also as is undre Linux.*
+*Note: The informations and make script are related to Windows but will work with minor changes also on macOS and Linux*
+
+Currently I still work on the basics but I will add later more informations about the game itself
+
+Next steps are:
+
+- [ ] Add text functionality
+- [ ] Load sprites from file
+- [ ] Add sound
+- [ ] Start with the game
 
 
 ## Build the source
