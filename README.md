@@ -37,7 +37,8 @@ If you have nogt already installed the toolchain, then follow this steps:
 3. Download the *zxnext_game repository either* as a ZIP archive using the "Clone or download" button at the top of this page or with Git using the following command:
 
 ```bash
-git clone https://github.com/rogerboesch/zxnext_game.git```
+git clone https://github.com/rogerboesch/zxnext_game.git
+```
 
 Go to the zxnext_game directory and enter the following command:
 
