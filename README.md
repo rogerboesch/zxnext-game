@@ -23,10 +23,10 @@ Next steps are:
 
 ## Build the source
 
-Building the source is as easy as type-in
+Building the game is as easy as type-in:
 
 ```bash
-make
+make game
 ```
 
 If you have nogt already installed the toolchain, then follow this steps:
@@ -46,13 +46,13 @@ Go to the zxnext_game directory and enter the following command:
 make game
 ```
 
-To build and start it directly after in the emulator type in:
+To build and start the game in the emulator, type in:
 
 ```bash
 make build
 ```
 
-If you just want start the program without building at first type in:
+If you just want to start the game without building at first, type in:
 
 ```bash
 make run
